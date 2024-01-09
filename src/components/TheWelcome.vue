@@ -191,10 +191,10 @@ export default {
           </ServiceCard>
         </div>
         <div class="flex flex-col items-center gap-4 mt-6 text-center">
-          <p class="text-2xl font-semibold">
+          <p class="text-2xl font-semibold text-secondary-200">
             High-class specialists are ready to help you at any time!
           </p>
-          <p class="text-base">
+          <p class="text-base text-secondary-200">
             Are you interested in immigrating, or are you just a creative
             looking to collaborate? Get in touch with us.
           </p>
@@ -325,15 +325,19 @@ export default {
       >
         <div class="data-info flex gap-4 items-center justify-center w-80">
           <h2 class="text-6xl font-medium text-primary">1.8M+</h2>
-          <p class="text-base font-semibold">Visitor Visa issued in 2020</p>
+          <p class="text-base font-semibold text-secondary-200">
+            Visitor Visa issued in 2020
+          </p>
         </div>
         <div class="data-info flex gap-4 items-center justify-center w-80">
           <h2 class="text-6xl font-medium text-primary">6M+</h2>
-          <p class="text-base font-semibold">Travel documents were issued</p>
+          <p class="text-base font-semibold text-secondary-200">
+            Travel documents were issued
+          </p>
         </div>
         <div class="data-info flex gap-4 items-center justify-center w-80">
           <h2 class="text-6xl font-medium text-primary">127K</h2>
-          <p class="text-base font-semibold">
+          <p class="text-base font-semibold text-secondary-200">
             Permanent residents were admitted
           </p>
         </div>
@@ -370,10 +374,10 @@ export default {
         </p>
       </div>
       <div class="form-box w-4/12 rounded-xl bg-slate-100 px-8">
-        <div class="text-xl font-semibold py-8 text-center">
+        <div class="text-xl font-semibold py-8 text-center text-secondary-200">
           Request Free Consultation
         </div>
-        <form class="flex flex-col gap-4">n
+        <form class="flex flex-col gap-4">
           <input class="input" type="text" placeholder="Enter Your Name" />
           <input
             class="input"
@@ -406,6 +410,7 @@ export default {
       </div>
     </div>
   </div>
+
   <div class="feedback">
     <div class="container mx-auto px-28">
       <div class="flex flex-col mt-16 items-center w-4/5 mx-auto">
@@ -436,9 +441,9 @@ export default {
   </div>
 
   <div
-    class="blog container mx-auto px flex flex-wrap items-center justify-center"
+    class="blog container mx-auto px-28 flex flex-wrap items-center justify-center"
   >
-    <div class="flex flex-col gap-4 items-center w-3/6">
+    <div class="flex flex-col gap-4 items-center w-4/6">
       <p class="text-header">Our Stories & Latest News</p>
       <p class="text-base text-center text-secondary-200">
         Cursus porta, feugiat primis in ultrice ligula risus auctor tempus dolor
@@ -446,7 +451,7 @@ export default {
         luctus placerat and massa
       </p>
     </div>
-    <div class="flex gap-8 mt-16">
+    <div class="flex gap-2 mt-16">
       <div v-for="(blog, index) in blogData" :key="index">
         <BlogCard
           :blogCardImage="blog.blogImageUrl"
@@ -459,6 +464,39 @@ export default {
         >
           <!-- Blog Card Component -->
         </BlogCard>
+      </div>
+    </div>
+  </div>
+
+  <div class="subscribe flex relative z-10">
+    <div
+      class="bg-hero-section bg-cover bg-center absolute top-0 left-0 bottom-0 right-0 z-20 bg-fixed"
+    ></div>
+    <div
+      class="absolute top-0 left-0 bottom-0 right-0 bg-gray-700 bg-opacity-80 z-30"
+    ></div>
+    <div class="container mx-auto px-32 py-24 z-50 flex items-center gap-24">
+      <div class="left-text">
+        <p class="text-3xl font-medium w-full text-white">
+          Stay up to date with immigration tips & news
+        </p>
+      </div>
+      <div class="right-text">
+        <div class="input-group bg-white w-full p-2 ps-4 rounded-full flex">
+          <input class="text-base font-medium w-4/6 px-4 outline-none" />
+          <button
+            class="bg-primary text-white font-bold rounded-full py-4 px-16"
+          >
+            Subscribe
+          </button>
+        </div>
+        <p class="mt-4 text-white">
+          By signing and clicking Subscribe, you affirm you have read and agree
+          to the
+          <a class="hover:text-primary underline" href="">Privacy Policy</a> and
+          <a class="hover:text-primary underline" href="">Terms of Use</a> and
+          want to receive news.
+        </p>
       </div>
     </div>
   </div>
