@@ -3,22 +3,24 @@
 </script>
 
 <template>
-  <div class="text-sky-500 p-4 shadow">
-    <div class="md:container md:mx-auto flex justify-between items-center">
+  <div
+    class="text-sky-400 p-4 shadow-md fixed top-0 left-0 right-0 z-50 bg-white"
+  >
+    <div class="container mx-auto flex justify-between items-center px-28">
       <div class="w-20"><img src="../assets/images/logo.png" alt="" /></div>
       <div class="">
         <ul class="flex gap-16">
-          <li>
-            <a href="#">Home</a>
+          <li class="hover:text-sky-500">
+            <a class="font-medium" href="#">Home</a>
           </li>
-          <li>
-            <a href="#">Services</a>
+          <li class="hover:text-sky-500">
+            <a class="font-medium" href="#">Services</a>
           </li>
-          <li>
-            <a href="#">Info</a>
+          <li class="hover:text-sky-500">
+            <a class="font-medium" href="#">Info</a>
           </li>
-          <li>
-            <a href="#">Contact</a>
+          <li class="hover:text-sky-500">
+            <a class="font-medium" href="#">Contact</a>
           </li>
         </ul>
       </div>

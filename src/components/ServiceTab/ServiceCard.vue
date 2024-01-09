@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-slate-100 hover:bg-white cursor-pointer hover:shadow-2xl shadow rounded-lg p-4 w-64">
+  <div
+    class="bg-slate-100 hover:bg-white cursor-pointer hover:shadow-2xl shadow rounded-lg p-4 w-64"
+  >
     <div class="flex items-center justify-between mb-4">
       <h2 class="text-xl font-medium">{{ title }}</h2>
     </div>
