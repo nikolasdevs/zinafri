@@ -22,8 +22,9 @@ export default {
 </script>
 
 <template>
-  <div class="text-sky-400 p-4 shadow-md fixed w-full z-50 bg-white bg-opacity-95  ">
-    <div class=""></div>
+  <div
+    class="text-sky-400 p-4 shadow-md fixed w-full z-50 bg-white bg-opacity-95"
+  >
     <div class="container mx-auto flex justify-between items-center">
       <div class="md:hidden flex cursor-pointer" @click="toggleMenu">
         <span v-if="isMenuOpen"
@@ -79,8 +80,8 @@ export default {
         </div>
       </transition>
 
-      <div class="w-20 flex items-center justify-center">
-        <a href=""><img src="../assets/images/logo.png" alt="" /></a>
+      <div class="w-8 md:w-20 flex items-center justify-center">
+        <a href=""><img src="../assets/images/logo.png" alt="logo" /></a>
       </div>
 
       <div class="hidden md:flex">
