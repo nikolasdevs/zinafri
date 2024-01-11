@@ -915,6 +915,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-0 {
+  gap: 0px;
+}
+
 .gap-y-8 {
   row-gap: 2rem;
 }
@@ -986,6 +990,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -1398,6 +1407,14 @@ video {
   }
 
   .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .md\:w-3\/6 {
     width: 50%;
   }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="cursor-grab p-4 gap-2 mb-8  flex-wrap w-full flex">
+  <div class="cursor-grab p-2 gap-2 mb-8 flex-wrap w-full flex">
     <div class="flex flex-col gap-4 mb-4">
       <img :src="blogCardImage" alt="Profile Image" class="" />
 

@@ -54,7 +54,7 @@ export default {
         luctus placerat and massa
       </p>
     </div>
-    <div class="flex flex-col md:flex-row gap-2 mt-16">
+    <div class="flex flex-col md:flex-row gap-4  mt-16">
       <div v-for="(blog, index) in blogData" :key="index">
         <BlogCard
           :blogCardImage="blog.blogImageUrl"
