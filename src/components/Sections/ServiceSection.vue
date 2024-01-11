@@ -62,7 +62,7 @@ export default {
 
       <!-- Immigration Services -->
 
-      <div class="flex flex-wrap gap-16 md:gap-4 justify-center mt-8 md:mt-16">
+      <div class="flex flex-wrap gap-16 md:gap-12 justify-center mt-8 md:mt-16">
         <div v-for="(card, index) in cardData" :key="index">
           <ServiceCard :title="card.title" :content="card.content">
             <!-- Additional content, if needed -->
