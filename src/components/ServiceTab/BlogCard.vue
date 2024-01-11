@@ -1,19 +1,17 @@
 <template>
-  <div class="">
-    <div class="cursor-grab p-4 gap-2 mb-8 flex-wrap flex">
-      <div class="flex flex-col gap-4 mb-4">
-        <img :src="blogCardImage" alt="Profile Image" class="" />
+  <div class="cursor-grab p-4 gap-2 mb-8  flex-wrap w-full flex">
+    <div class="flex flex-col gap-4 mb-4">
+      <img :src="blogCardImage" alt="Profile Image" class="" />
 
-        <p class="text-base font-bold text-secondary-200">
-          {{ blogCategory }} <span>{{ blogTime }}</span>
-        </p>
-        <p class="text-2xl font-bold text-primary">{{ blogTitle }}</p>
-      </div>
-      <p class="text-secondary-200 mt-6">{{ blogContent }}</p>
-      <p class="text-secondary-200 mt-6">
-       <p>by <span class="font-bold">{{ blogAuthor }}</span> - {{ blogDate }}</p> 
+      <p class="text-base font-bold text-secondary-200">
+        {{ blogCategory }} <span>{{ blogTime }}</span>
       </p>
+      <p class="text-2xl font-bold text-primary">{{ blogTitle }}</p>
     </div>
+    <p class="text-secondary-200 mt-6">{{ blogContent }}</p>
+    <p>
+      by <span class="font-bold">{{ blogAuthor }}</span> - {{ blogDate }}
+    </p>
   </div>
 </template>
 
@@ -51,8 +49,7 @@ export default {
     blogDate: {
       type: String,
       required: true,
-    }
-},
-  };
-
+    },
+  },
+};
 </script>

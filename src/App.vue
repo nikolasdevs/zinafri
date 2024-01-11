@@ -1,6 +1,6 @@
 <script setup>
 import TheHeader from "./components/TheHeader.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+import TheMain from "./components/TheMain.vue";
 import TheFooter from "./components/TheFooter.vue";
 </script>
 
@@ -10,7 +10,7 @@ import TheFooter from "./components/TheFooter.vue";
   </header>
 
   <main>
-    <TheWelcome />
+    <TheMain />
   </main>
 
   <footer>
@@ -18,8 +18,4 @@ import TheFooter from "./components/TheFooter.vue";
   </footer>
 </template>
 
-<style scoped>
-
-
-
-</style>
+<style scoped></style>

@@ -32,6 +32,15 @@
 .text-header {
   font-size: 3rem;
   color: rgb(11, 165, 233);
-  font-weight:600;
+  font-weight: 600;
   line-height: 3.5rem;
+}
+
+@media (max-width: 640px) {
+  .text-header {
+    font-size: 2.5rem;
+    color: rgb(11, 165, 233);
+    font-weight: 600;
+    line-height: 3.5rem;
+  }
 }
