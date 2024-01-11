@@ -1,6 +1,6 @@
 <template>
   <div
-    class="about-us flex flex-col md:flex-row items-center justify-between mx-auto md:mt-24 mt-16 w-full md:gap-24 gap-8 px-4"
+    class="about-us container flex flex-col md:flex-row items-center justify-between mx-auto md:mt-24 mt-16 w-full md:gap-24 gap-8 px-4"
   >
     <div class="md:w-4/5">
       <img src="/src/assets/images/christina.jpg" alt="" class="rounded-lg" />

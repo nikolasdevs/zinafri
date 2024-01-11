@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto px-4">
-    <div class="flex flex-col justify-between md:flex-row  py-16 gap-10">
+  <div class="container mx-auto px-4 md:mt-24 mt-16">
+    <div class="flex flex-col justify-between md:flex-row py-16 gap-10">
       <div class="logo-column flex flex-col gap-4 md:w-1/5">
         <div class="logo-column-top flex items-center gap-4">
           <img class="w-16" src="../assets/images/logo.png" alt="" />

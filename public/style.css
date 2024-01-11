@@ -1366,6 +1366,14 @@ video {
     margin-top: 4rem;
   }
 
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
   .md\:flex {
     display: flex;
   }

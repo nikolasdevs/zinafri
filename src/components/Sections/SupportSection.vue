@@ -1,6 +1,6 @@
 <template>
   <div
-    class="supportForm mt-24 flex relative z-20 bg-hero-section bg-cover bg-center bg-fixed"
+    class="supportForm md:mt-24 mt-16 flex relative z-20 bg-hero-section bg-cover bg-center bg-fixed"
   >
     <div
       class="bg-black bg-opacity-50 z-40 flex absolute top-0 bottom-0 left-0 right-0"

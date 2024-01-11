@@ -44,7 +44,7 @@ export default {
 </script>
 <template>
   <div
-    class="blog container mx-auto flex flex-wrap items-center justify-center"
+    class="blog container mx-auto flex flex-wrap items-center justify-center md:mt-24 mt-16"
   >
     <div class="flex flex-col gap-4 items-center md:w-4/6 px-4">
       <p class="text-header text-center">Our Stories & Latest News</p>
@@ -54,7 +54,7 @@ export default {
         luctus placerat and massa
       </p>
     </div>
-    <div class="flex flex-col md:flex-row gap-4  mt-16">
+    <div class="flex flex-col md:flex-row gap-4 mt-16">
       <div v-for="(blog, index) in blogData" :key="index">
         <BlogCard
           :blogCardImage="blog.blogImageUrl"

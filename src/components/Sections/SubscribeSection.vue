@@ -1,6 +1,6 @@
 <template>
   <div
-    class="subscribe flex relative bg-hero-section bg-cover bg-center top-0 left-0 bottom-0 right-0 bg-fixed z-10"
+    class="subscribe flex relative bg-hero-section bg-cover bg-center top-0 left-0 bottom-0 right-0 bg-fixed z-10 md:mt-24 mt-16"
   >
     <div
       class="absolute top-0 left-0 bottom-0 right-0 bg-gray-700 bg-opacity-80 z-30"
