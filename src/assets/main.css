@@ -36,6 +36,23 @@
   line-height: 3.5rem;
 }
 
+.menu-open {
+  /* transform: translateX(-8rem) scale(.9); */
+  background-color: rgba(256, 256, 256);
+
+  padding: 2rem;
+  position: absolute;
+  top: 5.4rem;
+  left: 0rem;
+  bottom: 0;
+  width: 250px; /* Set your desired width */
+  height: 100vh;
+  overflow: scroll;
+  transition: transform 0.2s ease-in-out; /* Set the transition property */
+}
+
+
+
 @media (max-width: 640px) {
   .text-header {
     font-size: 2.5rem;

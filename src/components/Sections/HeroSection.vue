@@ -15,7 +15,7 @@
           We have 15+ years experience in
         </p>
 
-        <p class="md:text-6xl text-4xl  font-black leading-snug text-primary">
+        <p class="sm:text-6xl text-4xl  font-black leading-snug text-primary">
           IMMIGRATION SERVICES & VISA CONSULTATION
         </p>
 
