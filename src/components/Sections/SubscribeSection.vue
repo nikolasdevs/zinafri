@@ -9,7 +9,9 @@
       class="container mx-auto md:my-24 my-16 md:py-24 z-50 flex flex-col md:flex-row items-center md:gap-24 gap-16 px-4"
     >
       <div class="left-text">
-        <p class="md:text-5xl text-3xl font-medium w-full text-white text-center leading-snug">
+        <p
+          class="md:text-5xl text-3xl font-medium w-full text-white text-center md:leading-snug"
+        >
           Stay up to date with immigration tips & news
         </p>
       </div>
