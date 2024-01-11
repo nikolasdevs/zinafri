@@ -1,15 +1,17 @@
 <template>
-  <div class="cursor-grab p-2 gap-2 mb-8 flex-wrap w-full flex">
+  <div class="gap-2 mb-8 flex-wrap w-full flex ">
     <div class="flex flex-col gap-4 mb-4">
-      <img :src="blogCardImage" alt="Profile Image" class="" />
+      <img :src="blogCardImage" alt="Profile Image" class="p-0" />
 
-      <p class="text-base font-bold text-secondary-200">
+      <p class="text-base font-bold text-secondary-200 px-4">
         {{ blogCategory }} <span>{{ blogTime }}</span>
       </p>
-      <p class="text-2xl font-bold text-primary">{{ blogTitle }}</p>
+      <p class="text-2xl font-bold text-primary cursor-pointer px-4">
+        {{ blogTitle }}
+      </p>
     </div>
-    <p class="text-secondary-200 mt-6">{{ blogContent }}</p>
-    <p>
+    <p class="text-secondary-200 px-4">{{ blogContent }}</p>
+    <p class="px-4 mb-4">
       by <span class="font-bold">{{ blogAuthor }}</span> - {{ blogDate }}
     </p>
   </div>

@@ -22,7 +22,8 @@ export default {
 </script>
 
 <template>
-  <div class="text-sky-400 p-4 shadow-md fixed w-full z-50 bg-white">
+  <div class="text-sky-400 p-4 shadow-md fixed w-full z-50 bg-white bg-opacity-95  ">
+    <div class=""></div>
     <div class="container mx-auto flex justify-between items-center">
       <div class="md:hidden flex cursor-pointer" @click="toggleMenu">
         <span v-if="isMenuOpen"
@@ -48,7 +49,7 @@ export default {
             viewBox="0 0 24 24"
             stroke-width="2"
             stroke="currentColor"
-            class="w-6 h-6 "
+            class="w-6 h-6"
           >
             <path
               stroke-linecap="round"
@@ -63,44 +64,44 @@ export default {
         <div class="menu menu-open" v-if="isMenuOpen">
           <ul class="flex flex-col gap-8 ps-6">
             <li class="">
-              <a class="font-medium hover:text-sky-500" href="#">Home</a>
+              <a class="font-medium hover:text-sky-500" href="#">HOME</a>
             </li>
             <li class="">
-              <a class="font-medium hover:text-sky-500" href="#">Services</a>
+              <a class="font-medium hover:text-sky-500" href="#">SERVICES</a>
             </li>
             <li class="">
-              <a class="font-medium hover:text-sky-500" href="#">News</a>
+              <a class="font-medium hover:text-sky-500" href="#">NEWS</a>
             </li>
             <li class="">
-              <a class="font-medium hover:text-sky-500" href="#">Contact</a>
+              <a class="font-medium hover:text-sky-500" href="#">CONTACT</a>
             </li>
           </ul>
         </div>
       </transition>
 
       <div class="w-20 flex items-center justify-center">
-        <img src="../assets/images/logo.png" alt="" />
+        <a href=""><img src="../assets/images/logo.png" alt="" /></a>
       </div>
 
-      <div class="hidden md:flex ">
+      <div class="hidden md:flex">
         <ul class="flex gap-16">
           <li class="hover:text-sky-500">
-            <a class="font-medium" href="#">Home</a>
+            <a class="font-medium" href="#">HOME</a>
           </li>
           <li class="hover:text-sky-500">
-            <a class="font-medium" href="#">Services</a>
+            <a class="font-medium" href="#">SERVICES</a>
           </li>
           <li class="hover:text-sky-500">
-            <a class="font-medium" href="#">Info</a>
+            <a class="font-medium" href="#">NEWS</a>
           </li>
           <li class="hover:text-sky-500">
-            <a class="font-medium" href="#">Contact</a>
+            <a class="font-medium" href="#">CONTACT</a>
           </li>
         </ul>
       </div>
 
       <div class="flex gap-4">
-        <a class="font-bold" href="#">Travel Blog</a>
+        <a class="font-semibold" href="#">TRAVEL BLOG</a>
       </div>
     </div>
   </div>

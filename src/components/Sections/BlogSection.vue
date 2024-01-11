@@ -1,6 +1,8 @@
 <script>
 import BlogCard from "@/components/ServiceTab/BlogCard.vue";
-import blogImage from "@/assets/images/review-4.jpg";
+import blogImage4 from "@/assets/images/review-4.jpg";
+import blogImage1 from "@/assets/images/review-1.jpg";
+import blogImage3 from "@/assets/images/review-6.jpg";
 
 export default {
   components: { BlogCard },
@@ -8,7 +10,7 @@ export default {
     return {
       blogData: [
         {
-          blogImageUrl: blogImage,
+          blogImageUrl: blogImage4,
           blogCategory: "Types of Work Visa in Nigeria",
           blogTime: "- 2 min read",
           blogTitle: "How to Apply for a Business Visa?",
@@ -18,7 +20,7 @@ export default {
           blogDate: "January 10, 2024",
         },
         {
-          blogImageUrl: blogImage,
+          blogImageUrl: blogImage1,
           blogCategory: "Types of Work Visa in Nigeria",
           blogTime: "- 3 min read",
           blogTitle: "How to Apply for a TWP Visa?",
@@ -28,7 +30,7 @@ export default {
           blogDate: "January 05, 2024",
         },
         {
-          blogImageUrl: blogImage,
+          blogImageUrl: blogImage3,
           blogCategory: "Types of Work Visa in Nigeria",
           blogTime: "- 1 min read",
           blogTitle: "How to Apply for a STR Visa?",
@@ -54,8 +56,14 @@ export default {
         luctus placerat and massa
       </p>
     </div>
-    <div class="flex flex-col md:flex-row gap-4 mt-16">
-      <div v-for="(blog, index) in blogData" :key="index">
+    <div
+      class="flex flex-col md:flex-row mt-16 gap-3"
+    >
+      <div
+        v-for="(blog, index) in blogData"
+        :key="index"
+        class="w-full hover:shadow-md"
+      >
         <BlogCard
           :blogCardImage="blog.blogImageUrl"
           :blogCategory="blog.blogCategory"
