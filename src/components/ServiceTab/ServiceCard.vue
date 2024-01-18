@@ -5,9 +5,9 @@
     <div class="flex items-center justify-between mb-4">
       <h2 class="text-xl font-medium">{{ title }}</h2>
     </div>
-    <hr class="mt-16 border-t border-b-1 border-sky-200" />
+    <!-- <hr class="mt-16 border-t border-b-1 border-sky-200" /> -->
     <p class="text-gray-700 mt-6">{{ content }}</p>
-    <div class="mt-4">
+    <div class="mt-16">
       <slot></slot>
       <!-- This is where additional content can be added -->
     </div>
